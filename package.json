@@ -1,5 +1,5 @@
 {
-  "name": "minotaur-dating API server",
+  "name": "minotaur-server",
   "version": "0.1.2",
   "description": "Required for https://github.com/nikau-2018/minotaur-dating",
   "main": "index.js",
