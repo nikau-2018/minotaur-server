@@ -38,6 +38,7 @@ router.post('/addUser', (req, res) => {
 
 router.post('/register', (req, res) => {
   const newUser = req.body
+  newUser.photo = 'https://workbea.com/wp-content/uploads/2017/03/lipstick-on-a-pig-225x300.jpg'
   db.addUser(newUser)
     .then(user => {
       res.redirect('http://localhost:4000')
